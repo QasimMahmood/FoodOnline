@@ -202,7 +202,6 @@
     </Content>
     <Content Include="Views\Shared\_MainLayoutPage.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\_SearchArea.cshtml" />
     <Content Include="Views\Resturant\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
