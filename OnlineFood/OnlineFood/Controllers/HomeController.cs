@@ -13,5 +13,9 @@ namespace OnlineFood.Controllers
         {
             return View();
         }
+        public ActionResult home()
+        {
+            return View();
+        }
     }
 }

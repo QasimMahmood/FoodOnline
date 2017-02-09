@@ -117,6 +117,69 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contents\ThemeFile\css\animate.css" />
+    <Content Include="Contents\ThemeFile\css\bootstrap.css" />
+    <Content Include="Contents\ThemeFile\css\bootstrap.min.css" />
+    <Content Include="Contents\ThemeFile\css\style.css" />
+    <Content Include="Contents\ThemeFile\images\12.png" />
+    <Content Include="Contents\ThemeFile\images\5p.jpg" />
+    <Content Include="Contents\ThemeFile\images\6p.jpg" />
+    <Content Include="Contents\ThemeFile\images\8p.jpg" />
+    <Content Include="Contents\ThemeFile\images\bag.png" />
+    <Content Include="Contents\ThemeFile\images\banner.jpg" />
+    <Content Include="Contents\ThemeFile\images\close_1.png" />
+    <Content Include="Contents\ThemeFile\images\cross.png" />
+    <Content Include="Contents\ThemeFile\images\cuisine1.jpg" />
+    <Content Include="Contents\ThemeFile\images\cuisine2.jpg" />
+    <Content Include="Contents\ThemeFile\images\cuisine3.jpg" />
+    <Content Include="Contents\ThemeFile\images\cuisine4.jpg" />
+    <Content Include="Contents\ThemeFile\images\cuisine5.jpg" />
+    <Content Include="Contents\ThemeFile\images\cuisine6.jpg" />
+    <Content Include="Contents\ThemeFile\images\cuisine7.jpg" />
+    <Content Include="Contents\ThemeFile\images\cuisine8.jpg" />
+    <Content Include="Contents\ThemeFile\images\dotted-line-right-wide.png" />
+    <Content Include="Contents\ThemeFile\images\dotted-line-right.png" />
+    <Content Include="Contents\ThemeFile\images\dotted-line.png" />
+    <Content Include="Contents\ThemeFile\images\icon1.jpg" />
+    <Content Include="Contents\ThemeFile\images\icon2.jpg" />
+    <Content Include="Contents\ThemeFile\images\icon3.jpg" />
+    <Content Include="Contents\ThemeFile\images\img-sprite.png" />
+    <Content Include="Contents\ThemeFile\images\line.png" />
+    <Content Include="Contents\ThemeFile\images\logo.png" />
+    <Content Include="Contents\ThemeFile\images\lunch.png" />
+    <Content Include="Contents\ThemeFile\images\order-section-bg.png" />
+    <Content Include="Contents\ThemeFile\images\order.jpg" />
+    <Content Include="Contents\ThemeFile\images\p1.jpg" />
+    <Content Include="Contents\ThemeFile\images\p2.jpg" />
+    <Content Include="Contents\ThemeFile\images\p3.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-1.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-2.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-3.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-4.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-5.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-6.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-logo1.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-logo2.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-logo3.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-logo4.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-logo5.jpg" />
+    <Content Include="Contents\ThemeFile\images\restaurent-logo6.jpg" />
+    <Content Include="Contents\ThemeFile\images\service-banner.jpg" />
+    <Content Include="Contents\ThemeFile\images\star1.png" />
+    <Content Include="Contents\ThemeFile\images\star2.png" />
+    <Content Include="Contents\ThemeFile\images\tick1.png" />
+    <Content Include="Contents\ThemeFile\images\to-top2.png" />
+    <Content Include="Contents\ThemeFile\js\classie.js" />
+    <Content Include="Contents\ThemeFile\js\easing.js" />
+    <Content Include="Contents\ThemeFile\js\jquery.carouFredSel-6.1.0-packed.js" />
+    <Content Include="Contents\ThemeFile\js\jquery.easydropdown.js" />
+    <Content Include="Contents\ThemeFile\js\jquery.flexisel.js" />
+    <Content Include="Contents\ThemeFile\js\jquery.min.js" />
+    <Content Include="Contents\ThemeFile\js\move-top.js" />
+    <Content Include="Contents\ThemeFile\js\simpleCart.min.js" />
+    <Content Include="Contents\ThemeFile\js\tms-0.4.1.js" />
+    <Content Include="Contents\ThemeFile\js\uisearch.js" />
+    <Content Include="Contents\ThemeFile\js\wow.min.js" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
@@ -136,6 +199,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Views\Shared\_MainLayoutPage.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_SearchArea.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -147,7 +213,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="db\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
