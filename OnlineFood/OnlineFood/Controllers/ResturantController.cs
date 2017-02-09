@@ -11,7 +11,7 @@ namespace OnlineFood.Controllers
         // GET: Resturant
         public ActionResult Index()
         {
-            int a;
+           
             return View();
         }
     }
