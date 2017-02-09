@@ -56,10 +56,10 @@
             <div class="container">
                 <div class="top-menu">
                     <ul>
-                        <li class="active"><a href="#Home" class="scroll">Home</a></li>|
-                        <li><a href="popular-restaurents.html">Popular Restaurants</a></li>|
-                        <li><a href="order.html">Order</a></li>|
-                        <li><a href="contact.html">contact</a></li>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>|
+                        <li>@Html.ActionLink("Popular Restaurants", "Index", "Resturant")</li>|
+                        <li>@Html.ActionLink("Order", "Index", "Order")</li>|
+                        <li>@Html.ActionLink("Contact", "Index", "Contact")</li>
                         <div class="clearfix"></div>
                     </ul>
                 </div>
@@ -74,13 +74,11 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        @Html.Partial("~/Views/Shared/_SearchArea.cshtml")
-    </div>
+        
+   
     <!-- header-section-ends -->
     <div class="content">
         @RenderBody()
-
-
         <div class="contact-section" id="contact">
             <div class="container">
                 <div class="contact-section-grids">
@@ -177,6 +175,35 @@
 						});
         </script>
         <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        <script src="~/Contents/ThemeFile/js/jquery.flexisel.js"></script>
+        <script type="text/javascript">
+					$(window).load(function() {
+
+						$("#flexiselDemo3").flexisel({
+							visibleItems: 3,
+							animationSpeed: 1000,
+							autoPlay: false,
+							autoPlaySpeed: 3000,
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: {
+								portrait: {
+									changePoint:480,
+									visibleItems: 1
+								},
+								landscape: {
+									changePoint:640,
+									visibleItems: 2
+								},
+								tablet: {
+									changePoint:768,
+									visibleItems: 3
+								}
+							}
+						});
+
+					});
+        </script>
 
 </body>
 </html>

@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace OnlineFood.Controllers
 {
-    public class HomeController : Controller
+    public class ResturantController : Controller
     {
-        // GET: Home
+        // GET: Resturant
         public ActionResult Index()
         {
             return View();
         }
-       
     }
 }
